@@ -20,4 +20,4 @@ Table. Model RMSE Comparsion and Evaluation
 
 
 ### Conclusion
-The best model I would choose for deployment is LGB which has improved test RMSE after hyper-parameters tuning as well as the second best training time.
+The best model I would choose for deployment is LGB which has the best test RMSE after hyper-parameters tuning as well as the second fastest training time.
