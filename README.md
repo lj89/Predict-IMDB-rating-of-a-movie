@@ -8,16 +8,14 @@
 
 #### There are four types of models I built - XGB, LGB, MLP, MLR. 
 #### To make sure the models are comparable, all models are built on the same train and test datasets.
-####  best model of each type - RMSE on test dataset
+### Model performance RMSE and Training Time (best model of each type)
 
-| Model Name  |    Root Mean Squared Error      | 
-|-------------|---------------|
-| XGB         |      0.7566          |  
-| LGB         |   0.7354    |  
-| MLP |            1.1672   |
-| Multiple Linear Regression |  0.8925  |   
-
-Table. Model RMSE Comparsion and Evaluation
+| Model Name  |    Root Mean Squared Error      | Training Time|
+|-------------|---------------|------------------------|
+| XGB         |      0.7566          | 38.1 s  |
+| LGB         |   0.7354    |  24.3 s    |  
+| MLP |            1.1672   | 3min 25s   |
+| Multiple Linear Regression |  0.8925  |    2.46 ms  |  
 
 ### Conclusion
 The best model I would choose for deployment is LGB which has the best test RMSE after hyper-parameters tuning as well as the second fastest training time.
