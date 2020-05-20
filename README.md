@@ -8,7 +8,8 @@
 
 #### There are four types of models I built - XGB, LGB, MLP, MLR. 
 #### To make sure the models are comparable, all models are built on the same train and test datasets.
-### Model performance RMSE and Training Time (best model of each type)
+### Model performance RMSE and Training Time 
+#### -best model of each type
 
 | Model Name  |    Root Mean Squared Error      | Training Time|
 |-------------|---------------|------------------------|
