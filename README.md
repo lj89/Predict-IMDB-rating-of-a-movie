@@ -18,5 +18,7 @@
 | MLP |            1.1672   | 3min 25s   |
 | Multiple Linear Regression |  0.8925  |    2.46 ms  |  
 
-### Conclusion
-The best model I would choose for deployment is LGB which has the best test RMSE after hyper-parameters tuning as well as the second fastest training time.
+### Conclusions
+Based on the Model performance considering RMSE and Training Time, the best model I would choose for deployment is LGB which has the best test RMSE after hyper-parameters tuning as well as the second fastest training time.
+
+The decision also depends on the requirement of deployment, if we deploy the model on the edge like wearable devices or smart phones where the computation power is limited and the prediction accuracy is not critical, we may also deploy a simpler model like MLR since it requires very little computation power and run extremely fast (2.46 ms).
