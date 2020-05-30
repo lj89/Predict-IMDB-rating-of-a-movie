@@ -1,19 +1,24 @@
 # Predict-IMDB-rating-of-a-movie
 
-### Goal: build machine learning models to predict the IMDb score based on a variety of attributes of movies, compare the model performances and pick the best model for deployment.
+### Goal: 
+build machine learning models to predict the IMDb score based on a variety of attributes of movies, compare the model performances and pick the best model for deployment.
 
-#### Data source is the movie_metadata.csv file from the following link:
+#### Data source:
 https://github.com/sundeepblue/movie_rating_prediction/
 
-### The report: "Predict IMDB rating of a movie Lei Jiang Report.pdf"
-### The main notebook is "Predict IMDB rating of a movie_fullFeatures-XGBbase.ipynb"
+### The report: 
+"Predict IMDB rating of a movie Lei Jiang Report.pdf"
+
+### The main notebook：
+"Predict IMDB rating of a movie_fullFeatures-XGBbase.ipynb"
 #### It contains a write up summary of this project and most data preparation and EDA are in this notebook. There are other notebooks in this repo that contain other types of models.
 
-### Target: predict imdb_score, regression problem.
+### Target: 
+predict imdb_score, regression problem.
 
 #### There are four types of models I built - XGB, LGB, MLP, MLR. 
 #### To make sure the models are comparable, all models are built on the same train and test datasets.
-### Model performance RMSE and Training Time 
+### Model performance - test RMSE and Training Time 
 #### -best model of each type
 
 | Model Name  |    Root Mean Squared Error      | Training Time|
