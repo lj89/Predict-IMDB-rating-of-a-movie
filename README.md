@@ -6,12 +6,10 @@ build machine learning models to predict the IMDb score based on a variety of at
 #### Data source:
 https://github.com/sundeepblue/movie_rating_prediction/
 
-### The report: 
-"Predict IMDB rating of a movie Lei Jiang Report.pdf"
 
-### The main notebook：
-"Predict IMDB rating of a movie_fullFeatures-XGBbase.ipynb"
-#### It contains a write up summary of this project and most data preparation and EDA are in this notebook. There are other notebooks in this repo that contain other types of models.
+### Method
+Feature engineering with NLP features; hyperparameters tuning for XGB,LGB; Neural Architecture Search for MLP.
+
 
 ### Target: 
 predict imdb_score, regression problem.
@@ -32,3 +30,11 @@ predict imdb_score, regression problem.
 Based on the Model performance considering RMSE and Training Time, the best model I would choose for deployment is LGB which has the best test RMSE after hyper-parameters tuning as well as the second fastest training time.
 
 The decision also depends on the requirement of deployment, if we deploy the model on the edge like wearable devices or smart phones where the computation power is limited and the prediction accuracy is not critical, we may also deploy a simpler model like MLR since it requires very little computation power and run extremely fast (2.46 ms).
+
+
+### The report: 
+"Predict IMDB rating of a movie Lei Jiang Report.pdf"
+
+### The main notebook：
+"Predict IMDB rating of a movie_fullFeatures-XGBbase.ipynb"
+#### It contains a write up summary of this project and most data preparation and EDA are in this notebook. There are other notebooks in this repo that contain other types of models.
