@@ -1,7 +1,7 @@
 # Predict-IMDB-rating-of-a-movie
 
 ### Goal: 
-build machine learning models to predict the IMDb score based on a variety of attributes of movies, compare the model performances and pick the best model for deployment.
+Build machine learning models to predict the IMDb score based on a variety of attributes of movies, compare the model performances and pick the best model for deployment.
 
 #### Data source:
 https://github.com/sundeepblue/movie_rating_prediction/
